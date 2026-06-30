@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<title>Seleccion de Futbol</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<header><h1>Seleccion de Futbol</h1></header>
+
+<main class="container">
+  <div class="toolbar">
+    <input type="text" id="f-nombre" placeholder="Nombre"/>
+    <input type="text" id="f-posicion" placeholder="Posicion"/>
+    <input type="text" id="f-equipo" placeholder="Equipo"/>
+    <input type="number" id="f-numero" placeholder="Numero"/>
+    <input type="number" id="f-goles" placeholder="Goles"/>
+    <button id="btn-guardar">Guardar</button>
+  </div>
+
+  <table id="tabla">
+    <thead>
+      <tr><th>Nombre</th><th>Posicion</th><th>Equipo</th><th>Numero</th><th>Goles</th><th></th></tr>
+    </thead>
+    <tbody id="tabla-body"></tbody>
+  </table>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

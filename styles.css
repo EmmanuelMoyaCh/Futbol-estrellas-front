@@ -1,0 +1,12 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+body { background: #f0f0f0; }
+header { background: #1a1a1a; color: #fff; padding: 1rem; text-align: center; }
+.container { max-width: 800px; margin: 2rem auto; padding: 1rem; }
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem; }
+.toolbar input { flex: 1; min-width: 100px; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+.toolbar button { background: #2e7d32; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: 10px; border-bottom: 1px solid #ddd; text-align: left; }
+th { background: #eee; }
+button.del { background: #c62828; color: #fff; border: none; padding: 4px 10px; border-radius: 4px; cursor: pointer; }
+button.edit { background: #1565c0; color: #fff; border: none; padding: 4px 10px; border-radius: 4px; cursor: pointer; margin-right: 4px; }
