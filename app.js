@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:8080/api/jugadores';
+const API_URL = 'https://futbol-estrellas-back.onrender.com/api/jugadores';
 
 let editId = null;
 
